@@ -1,7 +1,7 @@
 import React from 'react';
 
 import classes from './Form.module.scss';
-import Input from '../Input';
+import Input from '../input'
 import { addNewsItem, updateNewsItem } from '../../redux/slice/NewsSlice';
 
 const Form = ({ dispatch, closeModal, item }) => {
